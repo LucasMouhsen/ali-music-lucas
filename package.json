@@ -27,6 +27,7 @@
     "sequelize": "^6.7.0"
   },
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "sequelize-cli": "^6.5.1"
   }
 }
