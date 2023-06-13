@@ -1,3 +1,4 @@
+
 /*========== GOOGLE FONTS ==========*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
@@ -88,7 +89,6 @@
 }
 
 .header__input::placeholder {
-  font-family: var(--body-font);
   color: var(--text-color);
 }
 
@@ -138,13 +138,18 @@
 .nav__logo {
   font-weight: var(--font-semi-bold);
   margin-bottom: 2.5rem;
+  display: flex;
+  align-self: center;
+  gap: 0.5rem;
+  img{
+    width: 20%;
+  }
 }
 
 .nav__list, 
 .nav__items {
   display: grid;
 }
-
 .nav__list {
   row-gap: 2.5rem;
   padding-top: 30px;
@@ -153,7 +158,6 @@
 .nav__items {
   row-gap: 1.5rem;
 }
-
 .nav__subtitle {
   font-size: var(--normal-font-size);
   text-transform: uppercase;

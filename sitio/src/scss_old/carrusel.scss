@@ -1,3 +1,5 @@
+
+
 $time: 500ms;
 $delay: $time/2;
 $mode: cubic-bezier(0.17, 0.67, 0.55, 1.43);
@@ -58,7 +60,6 @@ $mode: cubic-bezier(0.17, 0.67, 0.55, 1.43);
         float: left;
         margin: 16px 0 0 20px;
         font-size: 20px;
-        font-family: "karla";
         font-weight: 400;
         color: #000000;
         transition: $time $mode;

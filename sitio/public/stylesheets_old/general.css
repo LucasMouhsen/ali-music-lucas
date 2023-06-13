@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");/* 'roboto', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap'); /* font-family: 'Rajdhani', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 
 *{
     padding: 0;
@@ -47,5 +47,4 @@ main{
     --color-art-precio: #ebebeb;
     --color-h1-rgba: #474a5680;
     --color-a-fav: #ff4500;
-    --font-family: 'Rajdhani', sans-serif;
 }

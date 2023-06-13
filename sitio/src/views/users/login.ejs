@@ -13,7 +13,7 @@
                 <form action="" method="POST" id="form-login">
                     <section class="datos">
                         <div class="box-form">
-                            <input  type="email" name="email" id="email" placeholder="email">
+                            <input type="email" name="email" id="email" placeholder="email">
                             <div class="login-alert"> <small class="text-danger small">
                                     <%= locals.errors && errors.email ? errors.email.msg : null %>
                                 </small>
@@ -21,7 +21,7 @@
                             </div>
                         </div>
                         <div class="box-form">
-                            <input  type="password" name="password" id="password" placeholder="contraseña">
+                            <input type="password" name="password" id="password" placeholder="contraseña">
                             <div class="login-alert">
                                 <small class="text-danger small">
                                     <%= locals.errors && errors.password ? errors.password.msg : null %>
@@ -30,7 +30,7 @@
                             </div>
 
                         </div>
-                        <span class="span" id ="error-empty"></span>
+                        <span class="span" id="error-empty"></span>
 
                         <div class="box-remember">
                             <input type="checkbox" name="recordar" id="recordar">
@@ -56,10 +56,10 @@
                 <!-- <div class="box-enlace">
                     <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark">Ingresar</div>
                 </div> -->
-            </main> 
+            </main>
             <%- include('../partials/footer') %>
-            <!-- <script src="/js/googleLogin.js"></script>  --> 
-            <script src="/js/login.js"></script>
+                <!-- <script src="/js/googleLogin.js"></script>  -->
+                <script src="/js/login.js"></script>
 
     </body>
 

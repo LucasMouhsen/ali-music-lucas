@@ -1,5 +1,3 @@
-console.log("llega el prevent")
-
 let form = document.querySelector("form")
 let inputSearch = document.getElementById("inputSearchValue")
 

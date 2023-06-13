@@ -70,7 +70,6 @@
 }
 
 .header__input::placeholder {
-  font-family: var(--body-font);
   color: var(--text-color);
 }
 

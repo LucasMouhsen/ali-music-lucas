@@ -1,9 +1,9 @@
 function slideshow() {
     
-    $('.slider-1').slick({
+   /*  $('.slider-1').slick({
         speed: 1000,
         fade: true
-    });
+    }); */
 }
 
 $(function () {
