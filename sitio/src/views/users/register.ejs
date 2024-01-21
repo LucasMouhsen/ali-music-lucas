@@ -5,10 +5,15 @@
     <%- include('../partials/sidebar') %> 
     <main>
 
-        <h1>Nuevo registro</h1>
+        <h1>Registrarse</h1>
         <form action="" method="POST" id="form-register" enctype="multipart/form-data">
             
 
+            <div class="avatar">
+                <label for="avatar"><i class="fas fa-user-circle"></i></label>
+                <p>Foto de perfil</p>
+                <input type="file" name="avatar" id="avatar" hidden >
+            </div>
             <div class="datos">
                 <div>
                     <input class="form-control <%= locals.errors && errors.firstName ? "is-invalid" : null %>" type="text" name="firstName" id ="firstName" value="<%= locals.old && old.firstName ? old.firstName : null %>" placeholder="Escribe tu nombre">
@@ -51,11 +56,6 @@
 
                 </div>
                 <span id ="error-empty"></span>
-                <div class="avatar">
-                    <label for="avatar"><i class="fas fa-user-circle"></i></label>
-                    <p>Foto de perfil</p>
-                    <input type="file" name="avatar" id="avatar" hidden >
-                </div>
             </div>
 
             <div class="buttons">

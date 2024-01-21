@@ -7,7 +7,6 @@
   background-color: rgba(255, 255, 255, 0.05); }
 
 .login main a {
-  color: #ff4500;
   text-decoration: underline;
   font-size: 12px; }
 
@@ -69,8 +68,7 @@
   margin: 5px 0px 0px; }
 
 .login main div.box-button button {
-  width: 100px;
-  height: 30px; }
+  color: #fff; }
 
 .login main div.box-enlace {
   display: flex;
@@ -84,8 +82,6 @@
   flex-direction: column; }
 
 .login main div.box-enlace button {
-  width: 260px;
-  height: 30px;
   font-size: 15px;
   display: flex;
   justify-content: space-evenly;
@@ -108,9 +104,7 @@
   .login main section.datos div.box-form {
     width: 90%; }
   .login main section.datos div.box-form input {
-    height: 40px; }
-  .login main div.box-button button {
-    height: 30px; } }
+    height: 40px; } }
 
 @media (min-width: 769px) {
   .login main {
